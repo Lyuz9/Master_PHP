@@ -18,7 +18,11 @@ echo "División: " . ($numero1 / $numero2) . "<br>";
 echo "Modulo: " . ($numero1 % $numero2) . "<br>";
 
 
+
+
 // Operadores incremento y decremento
+
+
 
 echo "<hr>";
 
@@ -42,4 +46,24 @@ echo --$año . "<br>";
 
 echo "Año: " . $año . "<br>";
 
-//
+echo "<hr>";
+
+
+// Operadores de asignación
+
+
+$edad = 55;
+
+echo "edad: " . $edad . "<br>";
+
+// $edad = $edad + 5
+echo "edad: " . ($edad+=5) . "<br>";
+
+echo "edad: " . ($edad-=5) . "<br>";
+
+echo "edad: " . ($edad*=5) . "<br>";
+
+echo "edad: " . ($edad/=5) . "<br>";
+
+
+var_dump($edad);
