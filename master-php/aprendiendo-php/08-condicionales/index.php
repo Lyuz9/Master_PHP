@@ -105,3 +105,36 @@ if ($dia == 1){
 } else {
     echo "El dia no es valido";
 }
+
+echo "<hr>";
+
+// ejemplo 5
+
+$edad1 = 18;
+$edad2 = 34;
+
+$edad_oficial = 20;
+
+if ($edad_oficial >= $edad1 && $edad_oficial <= $edad2) {
+    echo "Esta en edad de trabajar";
+} else {
+    echo "No puede trabajar aun";
+}
+
+/**
+ * opeadores logicos:
+ * && 
+ * ||
+ * !
+ * 
+ */
+
+echo "<hr>";
+
+$pais = "España";
+
+if ($pais == "México" || $pais == "España" || $pais == "Colombia") {
+    echo "El pais se habla español";
+} else {
+    echo "El pais no se habla español";
+}
