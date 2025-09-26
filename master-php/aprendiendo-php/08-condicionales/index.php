@@ -155,6 +155,17 @@ if ($edad_oficial >= $edad1 && $edad_oficial <= $edad2) {
 
 echo "<hr>";
 
+// Goto
+
+goto ejecutar_aqui;
+echo "<h3>Instrucción 1</h3>";
+echo "<h3>Instrucción 2</h3>";
+echo "<h3>Instrucción 3</h3>";
+echo "<h3>Instrucción 4</h3>";
+
+echo "<hr>";
+
+
 $pais = "España";
 
 if ($pais == "México" || $pais == "España" || $pais == "Colombia") {
@@ -162,3 +173,8 @@ if ($pais == "México" || $pais == "España" || $pais == "Colombia") {
 } else {
     echo "El pais no se habla español";
 }
+
+echo "<hr>";
+
+ejecutar_aqui:
+echo "<h3>Me he saltado 4 echos</h3>";
